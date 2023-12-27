@@ -1,4 +1,4 @@
-const addition = require('../calc')
+import {addition} from "../calc";
 
 describe("Calculator", () => {
     describe("Addition function", () => {
@@ -12,5 +12,4 @@ describe("Calculator", () => {
     describe("Subtraction function", () => {})
     describe("Multiply function", () => {})
     describe("Division function", () => {})
-
 })
